@@ -1,4 +1,4 @@
-# 🏨 Predictive Revenue Management & BI Data Pipeline
+# 🏨 Predictive Revenue Management & Market Intelligence Data Pipeline
 
 Pipeline de Engenharia de Dados ponta a ponta desenvolvido no **Databricks**, com a **Arquitetura Medalhão (Bronze, Silver e Gold)**. O objetivo do projeto é realizar a ingestão, sanitização e enriquecimento de dados operacionais hoteleiros (reservas e ocupação) para fundamentar análises de Business Intelligence (BI) e alimentar modelos preditivos de **Revenue Management (RM)**.
 
@@ -41,7 +41,7 @@ Utilização das tabelas analíticas otimizadas (Camada Gold) para desenvolver m
 
 #### Checkpoints de Desenvolvimento:
 
-* [x] **Fase 1.1 — Camada Bronze (Concluída):**
+* [x] **Fase 1.1 — Camada Bronze (Parcialmente Concluída):**
   * [x] Dados Primários: `reservas_raw` e `ocupacao_diaria_raw` com anonimização LGPD.
   * [x] Dados Exógenos: Câmbio (ARS e USD), Clima histórico, Previsão do tempo e Feriados (2011–2027).
   * [ ] Dados Terciários (TPA): Fluxo de entrada de veículos na cidade *(⏳ Pendente — Aguardando autorização de acesso aos dados públicos da Prefeitura de Bombinhas)*.
